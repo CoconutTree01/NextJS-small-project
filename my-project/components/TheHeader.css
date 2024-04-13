@@ -1,0 +1,21 @@
+.header {
+    font-family: Arial, sans-serif;
+  }
+  
+  .link {
+    color: black; /* Black font */
+    text-decoration: none;
+    margin: 0 10px; /* Adjust spacing between links */
+  }
+  
+  .link:hover {
+    background-color: black; /* Highlight background */
+    color: white; /* White letters on hover */
+    padding: 5px 10px; /* Adjust padding to increase clickable area */
+  }
+  
+  /* Center links horizontally */
+  .header {
+    display: flex;
+    justify-content: center;
+  }
