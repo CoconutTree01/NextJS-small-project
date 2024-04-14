@@ -9,6 +9,7 @@ header a {
     color: #fff; /* Set text color to white */
     margin: 20px;
     font-size: large;
+    text-decoration: none;
 }
 
 .container {
@@ -35,4 +36,12 @@ main a:hover {
 li {
     margin-bottom: 10px;
     font-size: 20px;
+}
+
+li a {
+    text-decoration: none;
+    color: inherit;
+}
+li a:hover {
+    text-decoration: underline;
 }
