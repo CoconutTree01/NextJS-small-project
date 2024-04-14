@@ -9,7 +9,7 @@ async function getData() {
         },
     });
     if (!response.ok) throw new Error('Failed to fetch data');
-    
+
     return response.json();
 }
 
@@ -23,8 +23,7 @@ export default async function Blog() {
 
     return (
         <>
-            <h1 className="text-3xl font-bold underline">Blog Page</h1>;
-
+            <h1 className="text-3xl font-bold underline">Blog Page</h1>
             <ul>
                 {posts.map((post: any) => (
                     <li key={post.id}>

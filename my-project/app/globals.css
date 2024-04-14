@@ -1,0 +1,38 @@
+header {
+    background-color: #333; /* Example background color */
+    color: #fff !important; /* Set text color to white */
+    padding: 1rem 0; /* Example padding */
+    text-align: center; /* Example text alignment */
+}
+
+header a {
+    color: #fff; /* Set text color to white */
+    margin: 20px;
+    font-size: large;
+}
+
+.container {
+    max-width: 900px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: 0 auto;
+}
+
+main {
+    min-height: calc(100vh - 85px - 22px);
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+main a {
+    text-decoration: none;
+    color: var (--color-bg);
+}
+main a:hover {
+    text-decoration: underline;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
