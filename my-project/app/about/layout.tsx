@@ -14,6 +14,9 @@ export default function AboutLayout({
             <li>
                 <Link href="/about/team">Team</Link>
             </li>
+            <li>
+                <Link href="/about/test">Test</Link>
+            </li>
         </ul>
         {children}
 
